@@ -1,0 +1,28 @@
+.bloc {
+  width: 100px;
+  height: 100px;
+  animation: bloc 2s linear infinite both;
+}
+@keyframes bloc {
+  0% {
+    transform: translate(0, 0);
+    background-color: red;
+  }
+
+  25% {
+    transform: translate(0, 200px);
+    background-color: blue;
+  }
+  50% {
+    transform: translate(200px, 200px);
+    background-color: green;
+  }
+  75% {
+    transform: translate(200px, 0);
+    background-color: yellow;
+  }
+  100% {
+    transform: translateX(0, 0);
+    background-color: red;
+  }
+}
